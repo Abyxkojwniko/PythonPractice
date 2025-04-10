@@ -20,4 +20,4 @@ if int(option1)==1 and int(option2)==0:
 else:
     weight=input("please input your weight:")
     print(f"you are {weight} heavy")
-#这个代码为什么需要加入int，因为输入的是字符串而不是数字，不能够直接比较
+#这个代码为什么需要

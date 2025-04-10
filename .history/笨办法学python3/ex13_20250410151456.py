@@ -13,11 +13,10 @@
 
 #巩固练习
 from sys import argv
-script,option1,option2=argv
-if int(option1)==1 and int(option2)==0:
+option1,option2=argv
+if option1==1 and option2==0:
     age=input("please input your age:")
     print(f"your age is {age}")
 else:
-    weight=input("please input your weight:")
+    weight=input("please input your weight")
     print(f"you are {weight} heavy")
-#这个代码为什么需要加入int，因为输入的是字符串而不是数字，不能够直接比较
